@@ -1,0 +1,40 @@
+ul {
+    display: inline;
+    display: flex;  
+    list-style: none;
+  }
+li{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.nav{
+    display: flex;
+    max-width: 100%;
+    background: wheat;
+    justify-content: space-between;  
+    align-items: center;
+}
+@media (max-width:768px) {
+    .nav {
+        flex-direction: column;
+        border: 1px solid black;
+    }
+}@media (max-width:768px) {
+    ul{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width:768px) {
+    li{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+@media (max-width:768px) {
+    .logo{
+        text-align: center;
+        font-size: 40px;
+    }
+
+
